@@ -23,7 +23,7 @@ Uses 55 different football stats to train this model and provide an accurate eva
 ### To run the interactive web dashboard on your local system, you will need to install and run the following from command prompt:
 1. download `EPL_value_prediction.pkl`and `feature_importance.xlsx`.
 2. pip install streamlit pandas
-3. cd "path/to/your/downloaded/'your-project-folder'"
+3. cd C:\Users\"YourName"\Downloads
 4. python -m streamlit run app.py
 
    
