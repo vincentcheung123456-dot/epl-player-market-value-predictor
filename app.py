@@ -1,7 +1,6 @@
 import pickle
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 #Setting the layout on streamlit
 st.set_page_config(layout = "wide")
 #loading the model
