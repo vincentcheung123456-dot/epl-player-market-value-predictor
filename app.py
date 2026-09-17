@@ -11,7 +11,6 @@ with open(model_file, "rb") as f:
 
 feature_file = "feature_importance.xlsx"
 feature_df = pd.read_excel(feature_file)
-st.sidebar.image("dataset-card.jpg")
 st.sidebar.header("Input player features")
 
 default_values = {
