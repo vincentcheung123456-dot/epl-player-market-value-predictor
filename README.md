@@ -21,9 +21,10 @@ Uses 55 different football stats to train this model and provide an accurate eva
 ### To run the database.ipynb, the following libaries are required(run the following command in cmd):
    pip install pandas soccerdata thefuzz numpy matplotlib seaborn scipy scikit-learn xgboost
 ### To run the interactive web dashboard on your local system, you will need to install and run the following from command prompt:
-1. pip install streamlit pandas
-2. cd "path/to/your/downloaded/'your-project-folder'"
-3. python -m streamlit run app.py
+1. download `EPL_value_prediction.pkl`and `feature_importance.xlsx`.
+2. pip install streamlit pandas
+3. cd "path/to/your/downloaded/'your-project-folder'"
+4. python -m streamlit run app.py
 
    
 
