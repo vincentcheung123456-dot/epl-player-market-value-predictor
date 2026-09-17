@@ -1,7 +1,6 @@
 import pickle
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 #Setting the layout on streamlit
 st.set_page_config(layout = "wide")
 #loading the model
@@ -11,7 +10,6 @@ with open(model_file, "rb") as f:
 
 feature_file = "feature_importance.xlsx"
 feature_df = pd.read_excel(feature_file)
-st.sidebar.image("dataset-card.jpg")
 st.sidebar.header("Input player features")
 
 default_values = {
